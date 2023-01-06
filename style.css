@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(49, 49, 49, 0.281);
+    width: 432px;
+    height: auto;
+}
+
+.grid-square{
+    text-align: center;
+    background-color: white;
+    border: solid gray;
+    border-width: thin;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+.grid-square:hover{
+    cursor: pointer;
+    border: 1px solid red;
+
+}
