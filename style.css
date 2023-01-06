@@ -7,10 +7,11 @@ body{
     flex-wrap: wrap;
     background-color: rgba(49, 49, 49, 0.281);
     width: 432px;
-    height: auto;
+    height: 432px;
 }
 
 .grid-square{
+    flex-grow: 1;
     text-align: center;
     background-color: white;
     border: solid gray;
@@ -19,6 +20,7 @@ body{
     width: 25px;
     height: 25px;
 }
+
 .grid-square:hover{
     cursor: pointer;
     border: 1px solid red;

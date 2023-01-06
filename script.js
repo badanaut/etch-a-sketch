@@ -1,9 +1,10 @@
+hoverColor = "#5c5552"
+
 //get the grid div
 const container = document.querySelector('#container');
-const squares = document.querySelectorAll('.container');
 
 function changeColor(e) {
-    e.target.style.backgroundColor = "green";
+    e.target.style.backgroundColor = hoverColor;
 }
 
 function createDivs(size){
