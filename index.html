@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch a Sketck</title>
+    <title>Etch a Sketch</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="container">        
+    <div class="header">Etch-a-Sketch</div>
+    <div class="container-wrapper">
+        <div class="settings">
+            <div id="range-div">
+                <p>16 x 16</p>
+                <input type="range" value="16" min="0" max="64" id="range-btn">
+            </div>
+            <input type="button" value="Clear" id="clear-btn">
+            <input type="button" value="Rainbow" id="rainbow-btn">
+            <input type="button" value="Color" id="color-btn">
+            <input type="color" name="hover-color" id="pick-color" value="#22223B">
+        </div>
+        <div id="container">        
+        </div>
     </div>
 </body>
 </html>
