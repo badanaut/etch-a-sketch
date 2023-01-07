@@ -13,16 +13,27 @@
     <div class="container-wrapper">
         <div class="settings">
             <div id="range-div">
-                <p>16 x 16</p>
-                <input type="range" value="16" min="0" max="64" id="range-btn">
+                <p id="slider-text">16 x 16</p>
+                <input type="range" value="16" min="1" max="64" id="range-btn">
             </div>
             <input type="button" value="Clear" id="clear-btn">
             <input type="button" value="Rainbow" id="rainbow-btn">
+            <input type="button" value="Eraser" id="eraser-btn">
             <input type="button" value="Color" id="color-btn">
             <input type="color" name="hover-color" id="pick-color" value="#22223B">
         </div>
         <div id="container">        
         </div>
+    </div>
+    <div class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          <a href="https://github.com/badanaut">badanaut</a>
+        </p>
+        
     </div>
 </body>
 </html>
